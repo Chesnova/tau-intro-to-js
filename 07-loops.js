@@ -13,3 +13,21 @@ for (let j = 0; j < numbers.length; j++) {
 for (let j = 0; j < numbers.length; j++) {
     console.log(numbers[j] * 2);
 }
+
+// for in
+const person = {fname:"John", lname:"Doe", age:25};
+let text = "";
+for (let x in person) {
+  text += person[x] + " ";
+  console.log(text);
+}
+console.log(text);
+
+const numbersNew = [45, 4, 9, 16, 25];
+
+let txt = "";
+for (let x in numbersNew) {
+  txt += numbersNew[x];
+}
+console.log(txt);
+
